@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
-cout<<"Hello World";
+char nume;
+cout<<"care este numele dumneavostra"<<endl;cin>>nume;
+cout<<"Hello "<<nume;
 return 0;
 }
